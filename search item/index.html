@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="search-wrapper">
+        <label for="Search">Search Users</label>
+        <input type="search" id="search" data-search>
+    </div>
+    <div class="user-cards" data-user-cards-container> </div>
+
+        <!-- <div class="card">
+            <div class="header">My name</div>
+            <div class="body">email@gmail.com</div>
+            </div>
+        
+        <div class="card">
+            <div class="header">My name</div>
+            <div class="body">email@gmail.com</div>
+            
+        </div>
+        <div class="card">
+            <div class="header">My name</div>
+            <div class="body">email@gmail.com</div>
+            
+        </div>
+        <div class="card">
+            <div class="header">My name</div>
+            <div class="body">email@gmail.com</div> -->
+            
+       
+        <template data-user-template>
+            <div class="card">
+            <div class="header" data-header>My name</div>
+            <div class="body" data-body>email@gmail.com</div>
+            </div>
+        </template>
+
+    
+    
+</body>
+</html>
